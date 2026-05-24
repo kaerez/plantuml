@@ -6,6 +6,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+
 jobs:
   deploy-pages:
     runs-on: ubuntu-latest
